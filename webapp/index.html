@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="login-card">
+            <h2>Welcome Back</h2>
+            <p class="subtitle">Please enter your credentials.</p>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" autocomplete="off">
+                    <span class="error-message" id="usernameError"></span>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                    <span class="error-message" id="passwordError"></span>
+                </div>
+                <button type="submit" id="loginBtn">Log In</button>
+            </form>
+            <div id="loginMessage" class="message hidden"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

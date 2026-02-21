@@ -1,0 +1,26 @@
+# Environments
+venv/
+.env
+
+# Python compilation files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing and reports
+.pytest_cache/
+reports/
+test-results.xml
+.coverage
+htmlcov/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
